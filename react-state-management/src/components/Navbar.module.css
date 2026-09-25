@@ -1,0 +1,23 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1.25rem;
+  background-color: var(--button-color);
+  color: #ffffff;
+}
+
+.brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.toggleButton {
+  padding: 0.5rem 1rem;
+  border: 0;
+  border-radius: 5px;
+  background-color: #ffffff;
+  color: #1e90ff;
+  cursor: pointer;
+}
