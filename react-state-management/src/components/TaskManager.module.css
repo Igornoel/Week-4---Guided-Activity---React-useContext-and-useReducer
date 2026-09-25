@@ -1,0 +1,19 @@
+.container {
+  max-width: 32rem;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.light { background-color: #ffffff; color: #000000; }
+.dark { background-color: #242629; color: #ffffff; }
+.form label { display: block; margin-bottom: 0.5rem; font-weight: 600; }
+.entry { display: flex; gap: 0.5rem; }
+.entry input { flex: 1; min-width: 0; padding: 0.6rem; border: 1px solid #777; border-radius: 5px; }
+.container button { padding: 0.55rem 0.85rem; border: 0; border-radius: 5px; background: #1e90ff; color: #ffffff; cursor: pointer; }
+.dark button { background: #85d1b0; color: #242629; }
+.container button:disabled { opacity: 0.55; cursor: not-allowed; }
+.list { display: grid; gap: 0.5rem; margin: 1.25rem 0 0; padding: 0; list-style: none; }
+.task { display: flex; align-items: center; justify-content: space-between; gap: 1rem; padding: 0.65rem; border: 1px solid currentColor; border-radius: 5px; }
+.empty { opacity: 0.75; }
